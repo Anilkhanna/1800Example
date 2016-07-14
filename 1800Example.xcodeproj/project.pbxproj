@@ -15,18 +15,10 @@
 		CF9B856B1D3644FB0029DC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9B856A1D3644FB0029DC71 /* Assets.xcassets */; };
 		CF9B856E1D3644FB0029DC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9B856C1D3644FB0029DC71 /* LaunchScreen.storyboard */; };
 		CF9B85791D3644FB0029DC71 /* _800ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9B85781D3644FB0029DC71 /* _800ExampleTests.m */; };
-		CF9B85841D3644FB0029DC71 /* _800ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9B85831D3644FB0029DC71 /* _800ExampleUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CF9B85751D3644FB0029DC71 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF9B85501D3644FB0029DC71 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF9B85571D3644FB0029DC71;
-			remoteInfo = 1800Example;
-		};
-		CF9B85801D3644FB0029DC71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CF9B85501D3644FB0029DC71 /* Project object */;
 			proxyType = 1;
@@ -50,9 +42,6 @@
 		CF9B85741D3644FB0029DC71 /* 1800ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1800ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9B85781D3644FB0029DC71 /* _800ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _800ExampleTests.m; sourceTree = "<group>"; };
 		CF9B857A1D3644FB0029DC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF9B857F1D3644FB0029DC71 /* 1800ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1800ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF9B85831D3644FB0029DC71 /* _800ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _800ExampleUITests.m; sourceTree = "<group>"; };
-		CF9B85851D3644FB0029DC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF9B857C1D3644FB0029DC71 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +67,6 @@
 			children = (
 				CF9B855A1D3644FB0029DC71 /* 1800Example */,
 				CF9B85771D3644FB0029DC71 /* 1800ExampleTests */,
-				CF9B85821D3644FB0029DC71 /* 1800ExampleUITests */,
 				CF9B85591D3644FB0029DC71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +76,6 @@
 			children = (
 				CF9B85581D3644FB0029DC71 /* 1800Example.app */,
 				CF9B85741D3644FB0029DC71 /* 1800ExampleTests.xctest */,
-				CF9B857F1D3644FB0029DC71 /* 1800ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,15 +112,6 @@
 				CF9B857A1D3644FB0029DC71 /* Info.plist */,
 			);
 			path = 1800ExampleTests;
-			sourceTree = "<group>";
-		};
-		CF9B85821D3644FB0029DC71 /* 1800ExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CF9B85831D3644FB0029DC71 /* _800ExampleUITests.m */,
-				CF9B85851D3644FB0029DC71 /* Info.plist */,
-			);
-			path = 1800ExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,24 +152,6 @@
 			productReference = CF9B85741D3644FB0029DC71 /* 1800ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF9B857E1D3644FB0029DC71 /* 1800ExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF9B858E1D3644FB0029DC71 /* Build configuration list for PBXNativeTarget "1800ExampleUITests" */;
-			buildPhases = (
-				CF9B857B1D3644FB0029DC71 /* Sources */,
-				CF9B857C1D3644FB0029DC71 /* Frameworks */,
-				CF9B857D1D3644FB0029DC71 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF9B85811D3644FB0029DC71 /* PBXTargetDependency */,
-			);
-			name = 1800ExampleUITests;
-			productName = 1800ExampleUITests;
-			productReference = CF9B857F1D3644FB0029DC71 /* 1800ExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,10 +165,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					CF9B85731D3644FB0029DC71 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = CF9B85571D3644FB0029DC71;
-					};
-					CF9B857E1D3644FB0029DC71 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = CF9B85571D3644FB0029DC71;
 					};
@@ -236,7 +185,6 @@
 			targets = (
 				CF9B85571D3644FB0029DC71 /* 1800Example */,
 				CF9B85731D3644FB0029DC71 /* 1800ExampleTests */,
-				CF9B857E1D3644FB0029DC71 /* 1800ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,13 +201,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CF9B85721D3644FB0029DC71 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF9B857D1D3644FB0029DC71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,14 +229,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF9B857B1D3644FB0029DC71 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF9B85841D3644FB0029DC71 /* _800ExampleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -303,11 +236,6 @@
 			isa = PBXTargetDependency;
 			target = CF9B85571D3644FB0029DC71 /* 1800Example */;
 			targetProxy = CF9B85751D3644FB0029DC71 /* PBXContainerItemProxy */;
-		};
-		CF9B85811D3644FB0029DC71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF9B85571D3644FB0029DC71 /* 1800Example */;
-			targetProxy = CF9B85801D3644FB0029DC71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -459,28 +387,6 @@
 			};
 			name = Release;
 		};
-		CF9B858F1D3644FB0029DC71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = 1800ExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobikasa.-800ExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = 1800Example;
-			};
-			name = Debug;
-		};
-		CF9B85901D3644FB0029DC71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = 1800ExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobikasa.-800ExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = 1800Example;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +406,7 @@
 				CF9B858A1D3644FB0029DC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9B858B1D3644FB0029DC71 /* Build configuration list for PBXNativeTarget "1800ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -508,14 +415,7 @@
 				CF9B858D1D3644FB0029DC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CF9B858E1D3644FB0029DC71 /* Build configuration list for PBXNativeTarget "1800ExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF9B858F1D3644FB0029DC71 /* Debug */,
-				CF9B85901D3644FB0029DC71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
